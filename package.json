@@ -1,0 +1,25 @@
+{
+  "name": "learn-browerify",
+  "version": "1.0.0",
+  "description": "learn browerify how to works",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify main.js -o build/bundle.js",
+    "watch": "watchify main.js -o build/bundle.js --debug --verbose",
+    "start": "node server"
+  },
+  "keywords": [
+    "browerify"
+  ],
+  "author": "xulayen",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "jquery_wechat_sdk": "^1.3.2",
+    "uniq": "^1.0.1",
+    "watchify": "^3.9.0"
+  }
+}
