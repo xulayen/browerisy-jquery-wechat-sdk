@@ -18,8 +18,11 @@
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "http": "0.0.0",
-    "jquery_wechat_sdk": "^1.3.2",
+    "jquery_wechat_sdk": "^1.4.4",
     "uniq": "^1.0.1",
     "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "http-browserify": "^1.7.0"
   }
 }
